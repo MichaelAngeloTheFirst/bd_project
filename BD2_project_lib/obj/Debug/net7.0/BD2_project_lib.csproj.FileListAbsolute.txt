@@ -1,0 +1,12 @@
+C:\Users\Michal\RiderProjects\BD2_project\BD2_project_lib\bin\Debug\net7.0\BD2_project_lib.deps.json
+C:\Users\Michal\RiderProjects\BD2_project\BD2_project_lib\bin\Debug\net7.0\BD2_project_lib.dll
+C:\Users\Michal\RiderProjects\BD2_project\BD2_project_lib\bin\Debug\net7.0\BD2_project_lib.pdb
+C:\Users\Michal\RiderProjects\BD2_project\BD2_project_lib\obj\Debug\net7.0\BD2_project_lib.csproj.AssemblyReference.cache
+C:\Users\Michal\RiderProjects\BD2_project\BD2_project_lib\obj\Debug\net7.0\BD2_project_lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Michal\RiderProjects\BD2_project\BD2_project_lib\obj\Debug\net7.0\BD2_project_lib.AssemblyInfoInputs.cache
+C:\Users\Michal\RiderProjects\BD2_project\BD2_project_lib\obj\Debug\net7.0\BD2_project_lib.AssemblyInfo.cs
+C:\Users\Michal\RiderProjects\BD2_project\BD2_project_lib\obj\Debug\net7.0\BD2_project_lib.csproj.CoreCompileInputs.cache
+C:\Users\Michal\RiderProjects\BD2_project\BD2_project_lib\obj\Debug\net7.0\BD2_project_lib.dll
+C:\Users\Michal\RiderProjects\BD2_project\BD2_project_lib\obj\Debug\net7.0\refint\BD2_project_lib.dll
+C:\Users\Michal\RiderProjects\BD2_project\BD2_project_lib\obj\Debug\net7.0\BD2_project_lib.pdb
+C:\Users\Michal\RiderProjects\BD2_project\BD2_project_lib\obj\Debug\net7.0\ref\BD2_project_lib.dll
