@@ -30,39 +30,20 @@ public class Class1
         return connection;
     }
 
-    public void CreateDb(SqlConnection conn)
+
+
+    public String FindValue(SqlConnection conn,string json_data, string key)
     {
-        string script = File.ReadAllText(@"\createDB.sql");
-        Server server = new Server(conn);
-        server.ConnectionContext.ExecuteNonQuery(script);
-    }
-
-    // public void Printpatients(SqlConnection connection)
-    // {
-    //     //     foreach (var data in connection.Query(@"SELECT * FROM dbo.patient"))
-    //     //     {
-    //     //         Console.WriteLine("lName: {0}",data.patient_data);
-    //     //     }
-    //     // }
-    //     var patient_data = connection.Query();
-    // }
-
-
-    public void InsertPatient(SqlConnection conn, string jString)
-    {
-        if(jString == null)
-        {
-            return;
-        }
-        //set dynamic parameters
-        DynamicParameters parameters = new DynamicParameters();
-        parameters.Add("patient_data", jString);
+        conn.Open();
+        SqlCommand cmd = new SqlCommand("SELECT  dbo.find_value(@json_data, @key)", conn);
         
-        conn.QuerySingleOrDefault("dbo.insertPatient", parameters, commandType: System.Data.CommandType.StoredProcedure);
+        cmd.Parameters.AddWithValue("@json_data", json_data);
+        cmd.Parameters.AddWithValue("@key", key);
         
-        
-        // call procedure to insert patient into patient table
-        // conn.Execute("exec dbo.insertPatient  @jsonData", new { jsonData = jString });
+        string str = cmd.ExecuteScalar().ToString();
+
+        conn.Close();
+        return str;
 
     }
     
@@ -83,28 +64,6 @@ public class Class1
     }
     
     
-
-    // //write method that connects to sql server
-    // public void ConnectToSqlServer()
-    // {
-    //     //create connection string
-    //     string connectionString = "Server=localhost;Database=BD2_database;Trusted_Connection=True;";
-    //     
-    //     //create connection
-    //     using SqlConnection connection = new SqlConnection(connectionString);
-    //     
-    //     foreach (var data in connection.Query(@"SELECT * FROM dbo.test_table"))
-    //     {
-    //         Console.WriteLine(data);
-    //         Console.WriteLine(data.lname);
-    //     }
-    //     
-    //     
-    //     
-    //     //close connection
-    //     Console.WriteLine("Connection closed");
-
-    // }
     
 
 

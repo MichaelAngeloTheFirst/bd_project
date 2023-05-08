@@ -28,3 +28,5 @@ C:\Users\Michal\RiderProjects\BD2_project\BD2_project_console\bin\Debug\net7.0\M
 C:\Users\Michal\RiderProjects\BD2_project\BD2_project_console\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\Michal\RiderProjects\BD2_project\BD2_project_console\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
 C:\Users\Michal\RiderProjects\BD2_project\BD2_project_console\bin\Debug\net7.0\Sprache.dll
+C:\Users\Michal\RiderProjects\BD2_project\BD2_project_console\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\Michal\RiderProjects\BD2_project\BD2_project_console\bin\Debug\net7.0\Newtonsoft.Json.dll

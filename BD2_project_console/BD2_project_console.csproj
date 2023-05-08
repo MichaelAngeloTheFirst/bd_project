@@ -11,4 +11,8 @@
       <ProjectReference Include="..\BD2_project_lib\BD2_project_lib.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </ItemGroup>
+
 </Project>
